@@ -15,7 +15,7 @@ class Lavalink:
             system(self.replace_port_command)
             
             if not environ.get("PASSWORD"):
-                print('[AVISO] Password não encontrada no .env')
+                print('[AVISO] Password não encontrada no .env!')
     
                 return system(self.replace_password_command_no_password)
             
